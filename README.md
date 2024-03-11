@@ -27,3 +27,27 @@ nmap -v --open -p- 1.1.91.108
 ```
 nmap -sV -version-all --script http-open-proxy -p80 1.1.1.108
 ```
+
+```
+netstat -antp | grep :22 -c
+```
+
+```
+ps ax | grep 5084
+```
+
+```
+kill -9 5084
+```
+
+```
+ps alx | grep 17791
+```
+
+```
+kill -9 17791
+```
+
+```
+netstat -antp | grep :22
+```
